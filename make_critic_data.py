@@ -7,6 +7,8 @@ PATH = Path('./data/')
 TEST=Path("./critic_data/test")
 TRAIN=Path("./critic_data/train")
 
+
+
 def make_critic_data(num_to_generate, replace, prefix, model_to_load, training, gen_size, use_test_prompt, generator_bs, tt_split):
     '''
     Generates samples of real and fake data. Files are written to:
